@@ -1,7 +1,9 @@
 public class TerrapizzaPage {
     public static final String URL = "https://terrapizza.by/";
     // раздел Пицца
-    public static final String BTN_PIZZA ="/html/body/div[3]/div[2]/div/div/div/div/div/ul/li[10]/a";
+   // public static final String BTN_PIZZA ="//a[@href='/catalog/picca'])[2]";
+    public static final String CATEGORY_MENU_TEXT_PRODUCT = "Пицца";
+   // public static final String BTN_PIZZA="//div//ul//li//a[@href='/catalog/picca']";
     // кнопка cookies
     public static final String BTN_COOK = "/html/body/div[6]/div/button";
     // пицца Маргарита
