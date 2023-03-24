@@ -44,7 +44,7 @@ public class TerrapizzaTest {
         Assertions.assertEquals("Пицца Маргарита", labelNamePizzaM.getText());
         // помещаем заказ в корзину
         WebElement BtnAddCard = driver.findElement(By.xpath(TerrapizzaPage.BTN_ADD_TO_CARD));
-        //  Thread.sleep(15000);
+        //  Thread.sleep(1000);
         BtnAddCard.click();
         //входим в корзину, нажимая кнопку
         WebElement BtnInputCard = driver.findElement(By.xpath(TerrapizzaPage.BTN_INPUT_TO_CARD));
